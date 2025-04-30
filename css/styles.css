@@ -1,0 +1,89 @@
+﻿body {
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    background: #f5f5f5;
+    color: #333;
+}
+
+header {
+    background-color: #005728;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+}
+
+nav {
+    margin-top: 10px;
+}
+
+nav a {
+    color: white;
+    margin: 0 15px;
+    text-decoration: none;
+}
+
+main {
+    padding: 20px;
+}
+
+.login-container {
+    max-width: 400px;
+    margin: 50px auto;
+    background: white;
+    padding: 30px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.2);
+    border-radius: 10px;
+    text-align: center;
+}
+
+input {
+    display: block;
+    width: 90%;
+    margin: 10px auto;
+    padding: 10px;
+}
+
+button {
+    padding: 10px 20px;
+    background-color: #005728;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #007a3d;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+table, th, td {
+    border: 1px solid #ccc;
+}
+.grades table {
+    width: 90%;
+    margin: 20px auto;
+    border-collapse: collapse;
+}
+
+.grades th, .grades td {
+    padding: 12px;
+    border: 1px solid #ddd;
+    text-align: center;
+}
+
+.grades th {
+    background-color: #005728;
+    color: white;
+}
+
+
+th, td {
+    padding: 10px;
+    text-align: left;
+}

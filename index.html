@@ -1,0 +1,41 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+<link rel="manifest" href="manifest.json">
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <meta charset="UTF-8">
+    <title>MMUST Portal Login</title>
+    <link rel="stylesheet" href="css/styles.css">
+    <script src="js/script.js" defer></script>
+</head>
+<body>
+<script>
+  if ('serviceWorker' in navigator) {
+      navigator.serviceWorker.register('sw.js')
+      .then(function(registration) {
+          console.log('Service Worker Registered!');
+      })
+      .catch(function(error) {
+          console.log('Registration failed:', error);
+      });
+  }
+</script>
+
+    <div class="login-container">
+        <img src="https://www.eduopinions.com/wp-content/uploads/2022/04/masinde-muliro-university-of-science-and-technology-logo-350x350.jpg" alt="MMUST Logo" class="logo">
+        
+        
+    
+    <h1>Welcome to MMUST Portal</h1>
+</div>
+
+        <form id="loginForm">
+            <input type="text" id="username" placeholder="Username" required>
+            <input type="password" id="password" placeholder="Password" required>
+            <button type="submit">Login</button>
+        </form>
+    </div>
+</body>
+</html>
