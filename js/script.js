@@ -4,7 +4,7 @@
     const password = document.getElementById("password").value;
 
     // Dummy check (you can replace this with real server authentication later)
-    if(username === "student" && password === "password") {
+    if((username === "kelvin")||(username === "yussuf")||(username === "brenda")||(username === "richard") && ( password === "password")) {
         window.location.href = "dashboard.html";
     } else {
         alert("Invalid credentials! Please try again.");
