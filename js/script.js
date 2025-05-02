@@ -22,7 +22,8 @@ document.getElementById("loginForm").addEventListener("submit", function(e) {
     const password = document.getElementById("password").value;
 
     // Dummy credentials
-    if (username === "student" && password === "password") {
+    if((username === "kelvin")||(username === "yussuf")||(username === "brenda")||(username === "richard") && ( password === "password")) 
+    {
         localStorage.setItem("loggedIn", "true");
         window.location.href = "dashboard.html";
     } else {
