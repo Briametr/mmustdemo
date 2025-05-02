@@ -4,7 +4,7 @@
     const password = document.getElementById("password").value;
 
     // Dummy check (you can replace this with real server authentication later)
-    if((username === "kelvin")||(username === "yussuf")||(username === "brenda")||(username === "richard") && ( password === "password")) {
+    if((username === "kelvin")||(username === "yusuf")||(username === "brenda")||(username === "richard") && ( password === "password")) {
         window.location.href = "dashboard.html";
     } else {
         alert("Invalid credentials! Please try again.");
@@ -22,7 +22,7 @@ document.getElementById("loginForm").addEventListener("submit", function(e) {
     const password = document.getElementById("password").value;
 
     // Dummy credentials
-    if((username === "kelvin")||(username === "yussuf")||(username === "brenda")||(username === "richard") && ( password === "password")) 
+    if((username === "kelvin")||(username === "yusuf")||(username === "brenda")||(username === "richard") && ( password === "password")) 
     {
         localStorage.setItem("loggedIn", "true");
         window.location.href = "dashboard.html";
